@@ -1,5 +1,11 @@
 # Notas Aulas 
 ## Sección 4 - Introducción a las rutas
+### Aula 82 - Probar rutas: tipo POST
+Todo Ok
+### Aula 81 - Comando para listado de rutas
+Todo Ok
+### Aula 80 - Argumentos en las rutas
+Todo Ok
 ### Aula 79 - Rutas comunes
 Todo Ok
 ### Aula 78 - Introduccion

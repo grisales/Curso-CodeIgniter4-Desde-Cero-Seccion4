@@ -9,14 +9,20 @@ class Pelicula extends BaseController{
         echo 'Soy el método index!';
     }
     
-    public function test()
+    public function new()
     {
-        echo 'Soy el método test!';
+        echo view('pelicula/create');
     }
     
     public function create()
     {
-        echo 'Soy el método create!';
+        echo "Esta vivo...<br>VIIIVOOO!!!! <br><b>(╯°□°）╯︵ ┻━┻</b>";
     }
+    
+    public function test($x =null, $n = null)
+    {
+        echo 'Soy el método test!... Prueba #'.$x." ".$n;
+    }
+    
     
 }

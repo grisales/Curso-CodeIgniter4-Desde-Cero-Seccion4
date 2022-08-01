@@ -37,15 +37,19 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
 
+$routes->get('test/','Pelicula::test');
+$routes->get('test/(:any)','Pelicula::test/$1');
+$routes->get('test/(:any)/(:num)','Pelicula::test/$1/$2');
+
 $routes->get('pelicula','Pelicula::index');
 
 $routes->get('pelicula/new','Pelicula::new');
 $routes->post('pelicula','Pelicula::create');
 
-$routes->get('pelicula/xx/edit','Pelicula::edit');
-$routes->put('pelicula/xx','Pelicula::update');
+$routes->get('pelicula/(:num)/edit','Pelicula::edit/$1');
+$routes->put('pelicula/(:num)','Pelicula::update/$1');
 
-$routes->delete('pelicula/xx','Pelicula::delete');
+$routes->delete('pelicula/(:num)','Pelicula::delete/$1');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
