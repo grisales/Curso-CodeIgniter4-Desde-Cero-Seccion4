@@ -47,7 +47,7 @@ $routes->get('pelicula/new','Pelicula::new');
 $routes->post('pelicula','Pelicula::create');
 
 $routes->get('pelicula/(:num)/edit','Pelicula::edit/$1');
-$routes->put('pelicula/(:num)','Pelicula::update/$1');
+$routes->post('pelicula/(:num)','Pelicula::update/$1');
 
 $routes->delete('pelicula/(:num)','Pelicula::delete/$1');
 /*

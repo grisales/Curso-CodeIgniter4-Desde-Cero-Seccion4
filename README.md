@@ -1,5 +1,8 @@
 # Notas Aulas 
 ## Sección 4 - Introducción a las rutas
+### Aula 83 - Probar rutas: tipo PUT
+Esta práctica estuvo ok, pero parece que el único propósito es mostrar que no se puede usar el PUT. 
+¯\_(ツ)_/¯
 ### Aula 82 - Probar rutas: tipo POST
 Todo Ok
 ### Aula 81 - Comando para listado de rutas

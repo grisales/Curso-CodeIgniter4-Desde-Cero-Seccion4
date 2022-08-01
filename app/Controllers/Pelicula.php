@@ -19,6 +19,16 @@ class Pelicula extends BaseController{
         echo "Esta vivo...<br>VIIIVOOO!!!! <br><b>(╯°□°）╯︵ ┻━┻</b>";
     }
     
+    public function edit($id)
+    {
+        echo view('pelicula/edit');
+    }
+    
+    public function update($id)
+    {
+        echo "[$id] Buaaaaa!!!! <br/><b>ಥ_ಥ</b> ";
+    }
+    
     public function test($x =null, $n = null)
     {
         echo 'Soy el método test!... Prueba #'.$x." ".$n;
