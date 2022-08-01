@@ -94,6 +94,9 @@ _modules/*
 
 # phpenv local config
 .php-version
+.htaccess
+pinfo.php
+
 
 # Jetbrains editors (PHPStorm, etc)
 .idea/

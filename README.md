@@ -7,7 +7,7 @@ Todo Ok
 <details><summary>Sección 3 - Creando nuestro CRUD</summary>
 
 ## Sección 3 - Creando nuestro CRUD
-Toda esta seccion y las anteriores se trabajaron en ambiente separado que se encuentra en la aplicacion `*ci4dc*`
+Toda esta seccion y las anteriores se trabajaron en ambiente separado que se encuentra en la aplicacion `ci4dc`
 ### Aulas 76 y 77
 Todo Ok
 ### Aula 75 - Validar datos de formulario mediante una clase aparte

@@ -36,8 +36,10 @@ class App extends BaseConfig
      * variable so that it is blank.
      *
      * @var string
+     *
+     *  public $indexPage = 'index.php';
      */
-    public $indexPage = 'index.php';
+    public $indexPage = '';
 
     /**
      * --------------------------------------------------------------------------

@@ -35,8 +35,17 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+// $routes->get('/', 'Home::index');
 
+$routes->get('pelicula','Pelicula::index');
+
+$routes->get('pelicula/new','Pelicula::new');
+$routes->post('pelicula','Pelicula::create');
+
+$routes->get('pelicula/xx/edit','Pelicula::edit');
+$routes->put('pelicula/xx','Pelicula::update');
+
+$routes->delete('pelicula/xx','Pelicula::delete');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
