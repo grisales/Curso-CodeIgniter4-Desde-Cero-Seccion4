@@ -1,5 +1,9 @@
 # Notas Aulas 
 ## Sección 4 - Introducción a las rutas
+### Aula 89 - Las rutas usadas en el resto del curso
+Todo ok
+### Aula 88 - Rutas agrupadas
+Todo ok
 ### Aula 87 - Controladores en las carpetas
 Todo ok
 ### Aula 86 - Rutas de tipo recurso y presenter: Opciones, only, except
