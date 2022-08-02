@@ -1,5 +1,7 @@
 # Notas Aulas 
 ## Sección 4 - Introducción a las rutas
+### Aula 86 - Rutas de tipo recurso y presenter: Opciones, only, except
+Todo ok. Atención a la sintaxis de los elementos que hagan parde del only/except.
 ### Aula 85 - Rutas automáticas
 Todo ok. 
 ### Aula 84 - Rutas de tipo resource y presenter
