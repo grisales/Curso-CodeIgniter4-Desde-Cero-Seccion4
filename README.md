@@ -1,5 +1,7 @@
 # Notas Aulas 
 ## Sección 4 - Introducción a las rutas
+### Aula 85 - Rutas automáticas
+Todo ok. 
 ### Aula 84 - Rutas de tipo resource y presenter
 Todo ok. 
 ### Aula 83 - Probar rutas: tipo PUT
