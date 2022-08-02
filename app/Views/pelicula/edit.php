@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Form edit película</h1>
-    <form action="/pelicula/1" method="post">
+    <form action="/pelicula/update/1" method="post">
         <button type="submit">Enviar</button>
     </form>
 </body>

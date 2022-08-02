@@ -1,5 +1,7 @@
 # Notas Aulas 
 ## Sección 4 - Introducción a las rutas
+### Aula 84 - Rutas de tipo resource y presenter
+Todo ok. 
 ### Aula 83 - Probar rutas: tipo PUT
 Esta práctica estuvo ok, pero parece que el único propósito es mostrar que no se puede usar el PUT. 
 ¯\_(ツ)_/¯

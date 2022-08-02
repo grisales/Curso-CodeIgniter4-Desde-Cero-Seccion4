@@ -37,19 +37,21 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
 
-$routes->get('test/','Pelicula::test');
-$routes->get('test/(:any)','Pelicula::test/$1');
-$routes->get('test/(:any)/(:num)','Pelicula::test/$1/$2');
+// $routes->get('test/','Pelicula::test');
+// $routes->get('test/(:any)','Pelicula::test/$1');
+// $routes->get('test/(:any)/(:num)','Pelicula::test/$1/$2');
 
-$routes->get('pelicula','Pelicula::index');
+// $routes->get('pelicula','Pelicula::index');
 
-$routes->get('pelicula/new','Pelicula::new');
-$routes->post('pelicula','Pelicula::create');
+// $routes->get('pelicula/new','Pelicula::new');
+// $routes->post('pelicula','Pelicula::create');
 
-$routes->get('pelicula/(:num)/edit','Pelicula::edit/$1');
-$routes->post('pelicula/(:num)','Pelicula::update/$1');
+// $routes->get('pelicula/(:num)/edit','Pelicula::edit/$1');
+// $routes->post('pelicula/(:num)','Pelicula::update/$1');
 
-$routes->delete('pelicula/(:num)','Pelicula::delete/$1');
+// $routes->delete('pelicula/(:num)','Pelicula::delete/$1');
+$routes->presenter('pelicula');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
