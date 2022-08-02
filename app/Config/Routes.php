@@ -41,7 +41,12 @@ $routes->set404Override();
 // $routes->get('test/(:any)','Pelicula::test/$1');
 // $routes->get('test/(:any)/(:num)','Pelicula::test/$1/$2');
 
-// $routes->get('pelicula','Pelicula::index');
+// $routes->get('pelicula','Dashboard\Pelicula::index');
+
+// $routes->group('dashboard',['namespace'=>'App\Controllers\Dashboard'],function($routes){
+//     $routes->get('pelicula','Pelicula::index');
+// }
+// );
 
 // $routes->get('pelicula/new','Pelicula::new');
 // $routes->post('pelicula','Pelicula::create');
@@ -50,7 +55,8 @@ $routes->set404Override();
 // $routes->post('pelicula/(:num)','Pelicula::update/$1');
 
 // $routes->delete('pelicula/(:num)','Pelicula::delete/$1');
-$routes->presenter('pelicula',[ 'only' => ['index','update']]);
+// $routes->presenter('pelicula',[ 'only' => ['index','update']]);
+$routes->presenter('pelicula',['namespace'=>'App\Controllers\Dashboard']);
 
 /*
  * --------------------------------------------------------------------

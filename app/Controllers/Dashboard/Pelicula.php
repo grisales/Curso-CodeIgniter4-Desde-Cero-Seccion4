@@ -1,6 +1,9 @@
 <?php 
 
-namespace App\Controllers;
+namespace App\Controllers\Dashboard;
+
+use App\Controllers\BaseController;
+
 
 class Pelicula extends BaseController{
 
